@@ -1,0 +1,224 @@
+.logo {
+    background-image: url('Assets/image/gold\ card.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 250px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*/ */ .for_slick_slider {
+    display: flex;
+}
+
+.for_slick_slider .items {
+    width: 150px;
+    height: 250px;
+    margin: 40px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.for_slick_slider .items .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 250px;
+    background: rgba(0, 0, 0, 0, 64);
+}
+
+.for_slick_slider .slick-center .overlay {
+    opacity: 0;
+}
+
+.for_slick_slider .items img {
+    width: 150px;
+    height: 250px;
+    transition: all linear .4s;
+}
+
+.for_slick_slider .slick-center img {
+    transform: scale(1.2);
+}
+
+.footer-background {
+    padding: 40px 0 20px 0;
+    background: #141414;
+    margin: 10px 0 0 0;
+    height: 600px;
+}
+
+.text-colour {
+    color: white;
+    text-align: center;
+}
+
+.center-text {
+    text-align: center ! important;
+    color: white ! important;
+    background-color: blueviolet ! important;
+    left: 100px ! important;
+    position: absolute ! important;
+    left: 600px ! important;
+    border-radius: 15px ! important;
+    top: 150px ! important;
+}
+
+.horizonantal-line {
+    color: grey;
+    margin-top: 150px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer-li {
+    margin-top: 20px;
+}
+
+
+/* custom css */
+
+.mybrand {
+    background-color: rgb(3, 3, 3);
+    color: #fff !important;
+    border-radius: 0.1rem !important;
+    padding: 3px;
+}
+
+.section {
+    padding: 0px 0;
+}
+
+.section-inner {
+    margin: 0px 0;
+}
+
+.section.credit-card {
+    padding: 0px 0;
+}
+
+.section.bg-colored {
+    background-color: #6a4d83;
+    padding: 40px 0;
+    color: #fff;
+}
+
+.section.bg-colored h5 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+@media(min-width:992px) {
+    .section-inner {
+        margin: 0px 0;
+    }
+}
+.ccr-intro {
+    padding: 20px 0 40px;
+    text-align: center;
+}
+
+@media(min-width:992px) {
+    .section.credit-card {
+        padding: 40px 0;
+    }
+    .ccr-intro {
+        padding: 80px 0 0 0;
+        text-align: left;
+    }
+}
+
+.intro-paragraph {
+    text-align: justify;
+}
+
+.intro-heading {
+    padding: 0px 0 0 0;
+    text-align: center;
+}
+
+@media(min-width:992px) {
+    .intro-heading {
+        padding: 80px 0 0 0;
+        text-align: left;
+    }
+}
+
+.contact-form {
+    background-color: #7fffd4;
+    padding: 30px;
+}
+
+.eligibility-form {
+    background-color: #f0f8ff;
+    padding: 30px;
+}
+
+.rewards-left,
+.rewards-right {
+    vertical-align: middle;
+}
+
+.rewards-left {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.rewards-left p {
+    text-align: justify;
+}
+
+@media(min-width:992px) {
+    .rewards-left {
+        text-align: left;
+        padding-top: 100px;
+    }
+}
+
+.section.bg-colored1 {
+    background-color: #a2e0cc;
+}
+
+.select-style {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.select-style p {
+    text-align: justify;
+}
+
+@media(min-width:992px) {
+    .select-style {
+        text-align: left;
+        padding: 80px 0 0 0;
+    }
+}
+
+.faq-inner {
+    padding: 40px 0;
+}
+
+.faq-inner h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer {
+    padding: 30px 0;
+}
+
+.footer-top {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #eee;
+}
